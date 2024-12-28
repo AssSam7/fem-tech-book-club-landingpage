@@ -1,0 +1,29 @@
+{
+  "name": "fem-tech-book-club-landingpage",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./tailwindinput.css -o ./styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssSam7/fem-tech-book-club-landingpage.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "TAILWINDCSS"
+  ],
+  "author": "Aslam Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssSam7/fem-tech-book-club-landingpage/issues"
+  },
+  "homepage": "https://github.com/AssSam7/fem-tech-book-club-landingpage#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
