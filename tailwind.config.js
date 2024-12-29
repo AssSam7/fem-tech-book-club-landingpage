@@ -16,8 +16,11 @@ module.exports = {
       "3xl": ["144px", "100%"],
     },
     fontFamily: {
-      rubik: ["Rubik", "sans-serif"],
-      "rubik-italic": ["Rubik Italic", "sans-serif"],
+      "martianmono-bold": ["MartianMono Bold", "sans-serif"],
+      "martianmono-semibold": ["MartianMono SemiBold", "sans-serif"],
+      "martianmono-regular": ["MartianMono Regular", "sans-serif"],
+      "inter-semibold": ["Inter SemiBold", "sans-serif"],
+      "inter-regular": ["Inter Regular", "sans-serif"],
     },
     colors: {
       neutral: {
