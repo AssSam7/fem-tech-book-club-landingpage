@@ -554,14 +554,11 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+body {
+  height: 100vh;
+  background-color: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+  --tw-text-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-text-opacity, 1));
 }
 
 .text-7xl {
@@ -569,7 +566,32 @@ video {
   line-height: 1;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+@font-face {
+  font-family: "MartianMono Bold";
+
+  src: url("./assets/fonts/martian-mono/static/MartianMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MartianMono SemiBold";
+
+  src: url("./assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "MartianMono Regular";
+
+  src: url("./assets/fonts/martian-mono/static/MartianMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+
+  src: url("./assets/fonts/inter/static/Inter_18pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+
+  src: url("./assets/fonts/inter/static/Inter_18pt-Regular.ttf");
 }

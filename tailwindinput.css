@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "MartianMono Bold";
+  src: url("./assets/fonts/martian-mono/static/MartianMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MartianMono SemiBold";
+  src: url("./assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "MartianMono Regular";
+  src: url("./assets/fonts/martian-mono/static/MartianMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url("./assets/fonts/inter/static/Inter_18pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("./assets/fonts/inter/static/Inter_18pt-Regular.ttf");
+}
+
+@layer base {
+  body {
+    @apply bg-gradient-gr text-red-100 h-[100vh];
+  }
+}
