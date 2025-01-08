@@ -28,7 +28,14 @@
 }
 
 @layer base {
-  body {
-    @apply bg-gradient-gr text-red-100 h-[100vh];
+  .container {
+    @apply p-10;
+  }
+}
+
+@layer components {
+  #intro {
+    background-image: url("./assets/images/pattern-light-bg.svg");
+    @apply h-[100vh];
   }
 }

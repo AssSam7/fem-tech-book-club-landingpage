@@ -41,10 +41,10 @@ module.exports = {
       padding: "1rem",
     },
     backgroundColor: {
-      gradient: {
-        "text-gr": "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);",
-        "light-gr": "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
-      },
+      // gradient: {
+      //   "text-gr": "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);",
+      //   "light-gr": "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
+      // },
     },
   },
   plugins: [],

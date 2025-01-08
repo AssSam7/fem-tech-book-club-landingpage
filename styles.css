@@ -124,7 +124,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -554,16 +554,18 @@ video {
   display: none;
 }
 
-body {
-  height: 100vh;
-  background-color: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
-  --tw-text-opacity: 1;
-  color: rgb(254 226 226 / var(--tw-text-opacity, 1));
+.container {
+  padding: 2.5rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
+#intro {
+  background-image: url("./assets/images/pattern-light-bg.svg");
+  height: 100vh;
 }
 
 @font-face {
